@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61f1b0c0.css",
+    "main.js": "/static/js/main.e74b0d03.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/rela-bg-desktop.jpg": "/static/media/rela-bg-desktop.3a27a3a3db850b6b7c8b.jpg",
+    "static/media/rela-bg-mobile1.jpg": "/static/media/rela-bg-mobile1.3a67c7292eb1c302228e.jpg",
+    "index.html": "/index.html",
+    "main.61f1b0c0.css.map": "/static/css/main.61f1b0c0.css.map",
+    "main.e74b0d03.js.map": "/static/js/main.e74b0d03.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61f1b0c0.css",
+    "static/js/main.e74b0d03.js"
+  ]
+}
