@@ -1,0 +1,1035 @@
+/* common styles */
+
+.hide {
+  display: none;
+}
+
+.numberForm button {
+  background-color: #087f5b;
+  color: white;
+  border: 1px solid #087f5b;
+
+}
+
+.numberForm button:disabled {
+  background-color: #e6fcf5;
+  border-color: #f8f9fa;
+  color: #adb5bd;
+  cursor: not-allowed;
+  box-shadow: 0 0 3px 0 #adb5bd;
+}
+
+.OTPBox form input {
+  text-align: center;
+}
+.numberForm input {
+  text-align: center;
+}
+
+.numberForm label {
+  color: #087f5b;
+}
+
+.numberForm input {
+  border: 1px solid #087f5b;
+
+  box-shadow: 0.5px 0.5px 2px 0 #f8f9fa;
+}
+
+.OTPBox form {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+}
+
+.OTPBox form label {
+  color: #087f5b;
+}
+
+.OTPBox form input {
+  border: 1px solid #087f5b;
+
+
+  box-shadow: 0.5px 0.5px 2px 0 #f8f9fa;
+}
+
+.OTPBox form button {
+  background-color: #087f5b;
+  color: white;
+  border-color: #087f5b;
+  border: 1px solid #087f5b;
+
+}
+
+.OTPBox form button:disabled {
+  background-color: #e6fcf5;
+  border-color: #f8f9fa;
+  color: #adb5bd;
+  cursor: not-allowed;
+  box-shadow: 0 0 3px 0 #adb5bd;
+}
+/* common styles */
+
+/*laptop and desktop: */
+@media screen and (min-width: 1024px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 33rem;
+  }
+
+  .numberForm label {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 33rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 11rem;
+    font-size: 1rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (min-height: 904px) {
+  .numberForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 3rem;
+  }
+
+  .numberForm label {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 33rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 11rem;
+    font-size: 1rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/*laptop and desktop: */
+
+/* ipad air */
+@media screen and (min-width: 820px) and (min-height: 1180px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 13rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 13rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ipad air*/
+
+/*ipads */
+@media screen and (max-width: 1024px) and (min-height: 1366px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 18rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 18rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/*ipads */
+
+/* ex nexus 10 */
+@media screen and (max-width: 800px) and (min-height: 1000px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 23rem;
+    margin-left: 12rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 23rem;
+    margin-left: 12rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ex nexus 10 */
+
+/* ex galaxy tab s4 */
+@media screen and (max-width: 720px) and (min-height: 1000px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 8rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 8rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ex galaxy tab s4 */
+
+/* ex ms lumia 550 */
+@media screen and (max-width: 650px) and (min-height: 300px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 7rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 7rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ex ms lumia 550 */
+
+/* ex nexus 6 */
+@media screen and (max-width: 420px) and (min-height: 700px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: -1rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: -1rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ex nexus 6 */
+
+/* ex LG optimus l70 */
+@media screen and (max-width: 400px) and (min-height: 500px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 0;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 0;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ex LG optimus l70 */
+
+/* ex galaxy s9+ */
+@media screen and (max-width: 350px) and (min-height: 500px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: -3rem;
+  }
+
+  .numberForm label {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: -3rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 9rem;
+    font-size: 1.5rem;
+
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .OTPBox form input {
+    width: 15rem;
+    height: 2rem;
+    margin-left: 6rem;
+
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+/* ex galaxy s9+ */
+
+/* ipad-7gen */
+@media screen and (min-width: 1620px) and (min-height: 2160px) {
+  .numberForm {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 30rem;
+  }
+
+  .numberForm label {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+
+    font-weight: 700;
+  }
+
+  .numberForm input {
+    width: 25rem;
+    height: 3.5rem;
+    margin-left: 8rem;
+
+    font-size: 3rem;
+    border-radius: 3px;
+  }
+
+  .numberForm button {
+    width: 25rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 3.5rem;
+    font-size: 2rem;
+  }
+
+  .OTPBox {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 30rem;
+  }
+
+  .OTPBox form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OTPBox form label {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+
+    font-weight: 700;
+  }
+
+  .OTPBox form input {
+    width: 25rem;
+    height: 3.5rem;
+    margin-left: 8rem;
+
+    font-size: 3rem;
+    border-radius: 3px;
+  }
+
+  .OTPBox form button {
+    width: 25rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-weight: 500;
+    border-radius: 5px;
+
+    height: 3.5rem;
+    font-size: 2rem;
+  }
+}
+/* ipad-7gen*/
+
+
+/* new */
+
+.Home {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.numberForm, .OTPBox {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-top: 20px;
+}
+
+.OTPBox.hide, .numberForm.hide {
+  display: none;
+}
+
+.resendButton {
+  position: absolute;
+  margin-top: 87px;
+  margin-left: 30%;
+  background-color: #ff9800;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 31px;
+  text-align: center;
+  justify-content: center;
+}
+
+.resendButton:disabled {
+  background-color: #e6fcf5;
+  color: #adb5bd;
+  cursor: not-allowed;
+  box-shadow: 0 0 3px 0 #adb5bd;
+  height: 31px;
+
+}
+
+
+
+@media screen and (min-width: 1620px) and (min-height: 2160px) {
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .numberForm, .OTPBox {
+    width: 40%; 
+    margin-top: 80px; 
+  }
+
+  .resendButton {
+    margin-top: 150px; 
+    padding: 15px 30px; 
+    font-size: 20px;  
+    height: auto;   
+
+  }
+
+  .resendButton:disabled {
+    background-color: #e6fcf5;
+    color: #adb5bd;
+    cursor: not-allowed;
+    box-shadow: 0 0 3px 0 #adb5bd;
+    height: auto;
+    font-size: 30px;
+    margin-top: 140px;
+    
+  }
+}

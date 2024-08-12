@@ -1,0 +1,301 @@
+.disclaimer {
+  color: #f03e3e;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.selectPatient select {
+  border-radius: 3px;
+}
+
+/* Desktop and Laptop */
+@media screen and (min-width: 1024px) {
+  .nav {
+    display: flex;
+    gap: 50rem;
+  }
+
+  .patientDetails {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 20rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail {
+    display: flex;
+    gap: 10px;
+  }
+
+  .detailValue {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .detailTitle {
+    margin: 0;
+  }
+
+  .time {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+
+  .disclaimer {
+    font-weight: 700;
+    margin: 1rem 0 1rem 20rem;
+    font-size: 1.2rem;
+  }
+
+  .name {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 30rem;
+  }
+
+  .selectPatient {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0 0 2rem;
+  }
+
+  .selectPatient h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .selectPatient select {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+/* iPad (Portrait and Landscape) */
+@media screen and (max-width: 1024px) {
+  .nav {
+    display: flex;
+    gap: 20rem;
+  }
+
+  .patientDetails {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 20rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail {
+    display: flex;
+    gap: 10px;
+  }
+
+  .detailValue {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .detailTitle {
+    margin: 0;
+  }
+
+  .time {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+
+  .disclaimer {
+    font-weight: 700;
+    margin: 2rem 0 1rem 2rem;
+    font-size: 1.4rem;
+  }
+
+  .name {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 30rem;
+  }
+
+  .selectPatient {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0 0 2rem;
+  }
+
+  .selectPatient h1 {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .selectPatient select {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablets and large phones */
+@media screen and (max-width: 800px) {
+  .nav {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .patientDetails {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 20rem;
+    margin-left: -4rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+
+  .detail {
+    display: flex;
+    gap: 10px;
+  }
+
+  .detailValue {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .detailTitle {
+    margin: 0;
+  }
+
+  .time {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+
+  .disclaimer {
+    font-weight: 700;
+    margin: 3rem 0 1rem 2rem;
+    font-size: 1.2rem;
+  }
+
+  .name {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 30rem;
+  }
+
+  .selectPatient {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0 0 2rem;
+  }
+
+  .selectPatient h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .selectPatient select {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .patientDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 0rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail {
+    display: flex;
+    gap: 10px;
+  }
+
+  .detailValue {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .detailTitle {
+    margin: 0;
+  }
+
+  .time {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+
+  .disclaimer {
+    font-weight: 700;
+    margin: 3rem 0 1rem -3rem;
+    font-size: 1.2rem;
+  }
+
+  .name {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 30rem;
+  }
+
+  .selectPatient {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .selectPatient h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .selectPatient select {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,605 @@
+
+.clear {
+  border-color: #d61212;
+  color: #dd1f1f;
+  font-size: 1.5rem;
+  width: 10rem;
+  font-weight: 700;
+  background-color: white;
+}
+
+.submit {
+  font-weight: 700;
+  background-color: #087f5b;
+  color: white;
+  border: 1px solid #087f5b;
+  width: 10rem;
+  font-size: 1.5rem;
+}
+
+.canvasContainer canvas {
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 25rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+/*ipad-air*/
+@media screen and (min-width: 820px) and (min-height: 1180px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/*ipad-air */
+
+/*ipads */
+@media screen and (max-width: 1024px) and (min-height: 1366px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/*ipads */
+
+/* ex nexus 10 */
+@media screen and (max-width: 800px) and (min-height: 1000px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+    margin-left: -1rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/* ex nexus 10 */
+
+/* ex galaxy tab s4 */
+@media screen and (max-width: 720px) and (min-height: 1000px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+    margin-left: -2rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/* ex galaxy tab s4 */
+
+@media screen and (max-width: 900px) and (min-width: 1020px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+    margin-left: -2rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+
+/* ex ms lumia 550 */
+@media screen and (max-width: 650px) and (min-height: 300px) {
+  .canvas {
+    height: 30rem;
+    width: 90%;
+    margin-left: -2rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/* ex ms lumia 550 */
+
+/* ex nexus 6 */
+@media screen and (max-width: 420px) and (min-height: 700px) {
+  .canvas {
+    height: 20rem;
+    width: 100%;
+    margin-left: -4rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-left: -4rem;
+  }
+  .clear {
+    font-size: 1rem;
+    width: 7rem;
+  }
+
+  .submit {
+    width: 7rem;
+    font-size: 1rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/* ex nexus 6 */
+
+/* ex LG optimus l70 */
+@media screen and (max-width: 400px) and (min-height: 500px) {
+  .canvas {
+    height: 20rem;
+    width: 100%;
+    margin-left: -4rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-left: -4rem;
+  }
+  .clear {
+    font-size: 1rem;
+    width: 7rem;
+  }
+
+  .submit {
+    width: 7rem;
+    font-size: 1rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/* ex LG optimus l70 */
+
+/* ex galaxy s9+ */
+@media screen and (max-width: 350px) and (min-height: 500px) {
+  .canvas {
+    height: 20rem;
+    width: 130%;
+    margin-left: -5.5rem;
+  }
+  .formButtons {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-left: -7rem;
+  }
+  .clear {
+    font-size: 1rem;
+    width: 7rem;
+  }
+
+  .submit {
+    width: 7rem;
+    font-size: 1rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.2rem;
+  }
+
+  .uhid label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+/* ex galaxy s9+ */
+
+/*ipad-7gen*/
+@media screen and (min-width: 1600px) and (min-height: 2100px) {
+  .canvas {
+    height: 40rem;
+    width: 90%;
+  }
+  .formButtons {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 25rem;
+  }
+
+  .clear {
+    border-radius: 5px;
+
+    font-size: 2rem;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+
+  .submit {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .uhid {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1rem 1rem;
+  }
+  .uhid input {
+    font-size: 1.5rem;
+  }
+
+  .uhid label {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+/*ipad-7gen*/
+
+
+
+/* new */
+
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
+
+
+.logout {
+  background-color: #1890ff;
+  color: white;
+}
+
+
+/*  */
+
+.relationshipContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0; 
+  left: 35%;
+  margin-top: -20px; 
+  width: 100%;
+  max-width: 720px; 
+  padding: 12px;
+  z-index: 1000; 
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.relationshipContainer label {
+  margin-bottom: 5px;
+  font-size: 21px;
+}
+
+.relationshipContainer select,
+.relationshipContainer input {
+  margin-bottom: 10px;
+  width: 100%; 
+  padding: 8px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.relationshipContainer label:nth-child(2) {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .relationshipContainer {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    top: 20px; /* Adjust if needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
+
+  .relationshipContainer label {
+    margin-bottom: 0;
+  }
+
+  .relationshipContainer select,
+  .relationshipContainer input {
+    margin-bottom: 0;
+    width: auto; /* Adjust width as needed */
+  }
+}
+
